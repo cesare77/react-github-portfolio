@@ -49,7 +49,13 @@ Now we'll create two dynamic links in the **Header** component to reach the two 
 
 Realtive commit: Projects page and navigation.
 
-Now we'll create a new component and a new relative dynamic route to view details about every single project inside Projects page and we'll do this using a new parameter for every single project name. es. `/projects/:name`
+Now we'll create a new component and a new relative dynamic route to view details about every single project inside Projects page and we'll accomplish this using a new parameter for every single project name. es. `/projects/:name`
+
+We'll also use the **useParams** hook to retrieve the project name param from the url and a new github API endpoint: `https://api.github.com/repos/${userName}/${name}`
+
+Relative commit: Single project detail page.
+
+
 
 
 

@@ -7,6 +7,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Profile from "./pages/Profile";
 import Projects from "./pages/Projects";
+import Project from "./pages/Project";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
         <Route 
           path="projects"
           element={<Projects userName="cesare77"/>}
+        />
+        <Route
+          path="/projects/:name"
+          element={<Project userName="cesare77"/>}
         />
       </Routes>
       </BrowserRouter>
