@@ -7,11 +7,15 @@ function Header({ logo }) {
       <img src={logo} className="App-logo" alt="logo" />
       <h1>My Portfolio</h1>
       <nav>
-        <RouterLink to='/' className="App-link">
+        <RouterLink to="/search" className="App-link">
+          Search
+        </RouterLink>
+        |&nbsp;
+        <RouterLink to="/" className="App-link">
           About me
         </RouterLink>
         |&nbsp;
-        <RouterLink to='/projects' className="App-link">
+        <RouterLink to="/projects" className="App-link">
           Projects
         </RouterLink>
       </nav>
