@@ -55,11 +55,13 @@ We'll also use the **useParams** hook to retrieve the project name param from th
 
 Relative commit: Single project detail page.
 
+Add page search with form to search for another github user.
+
+todo: handle error on form
 
 
 
-
-Relative commit: ...
+Relative commit: Add page search with form.
 
 
 
