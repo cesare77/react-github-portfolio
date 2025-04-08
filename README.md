@@ -41,6 +41,20 @@ See all the above code in commit.
 `npm install react-router-dom` to install react-router web-package that is a library for React routing features.
 This library allow us to add declarative routing to React application by adding components that are divided in three types: router components, router matching components and navigation components.
 
+`curl https://api.github.com/users/username/repos` is a gitHub API endpoint to get all user repositories, we'll use this endpoint for a new component that retrieves and renders user's repositories on the **Projects** route.
+
+Now we have two route that renders two different page, if we want a generic route that renders all others route we need to set a route with **"*"** value.
+
+Now we'll create two dynamic links in the **Header** component to reach the two routes/pages using **Link** react-router-dom component.
+
+Realtive commit: Projects page and navigation.
+
+Now we'll create a new component and a new relative dynamic route to view details about every single project inside Projects page and we'll do this using a new parameter for every single project name. es. `/projects/:name`
+
+
+
+Relative commit: ...
+
 
 
 > [!NOTE]

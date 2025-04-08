@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import Profile from "./pages/Profile";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
         <Route 
           path="/"
           element={<Profile userName="cesare77" />}
+        />
+        <Route 
+          path="projects"
+          element={<Projects userName="cesare77"/>}
         />
       </Routes>
       </BrowserRouter>
