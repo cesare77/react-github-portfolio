@@ -38,6 +38,7 @@ The above request return a response in JSON format, we'll use two endpoint, one 
 Now we create a new directory called _pages_ for pages, and crate _Profile_ component inside it, then we create List component inside components folder and in the meanwhile we'll modify other files to accomplish our goal.
 See all the above code in commit.
 
+## Routing with react-router
 `npm install react-router-dom` to install react-router web-package that is a library for React routing features.
 This library allow us to add declarative routing to React application by adding components that are divided in three types: router components, router matching components and navigation components.
 
